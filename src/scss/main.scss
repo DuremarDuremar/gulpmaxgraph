@@ -1,4 +1,26 @@
-@import "../../node_modules/normalize.css/normalize";
-@import "second";
+@import "normal";
+@import "mixin";
+
+body {
+  font-family: montserrat;
+  background-color: darkgray;
+}
+
+.header {
+}
+.container {
+}
+.header__name {
+}
+.header__name__vector {
+  use {
+    fill: #0099cc;
+    color: #7fcbe5;
+  }
+}
+.header__name_toxin {
+}
+.header__nav {
+}
 
 @import "fonts";

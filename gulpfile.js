@@ -59,7 +59,7 @@ const fontsStyle = (done) => {
 };
 
 const svgSprites = () => {
-  return src("./src/img/**.svg")
+  return src("./src/img/svg/**.svg")
     .pipe(
       svgSprite({
         mode: {
@@ -176,7 +176,7 @@ const watchFiles = () => {
   watch("./src/img/**.jpg", imgToApp);
   watch("./src/img/**.png", imgToApp);
   watch("./src/img/**.jpeg", imgToApp);
-  watch("./src/img/**.svg", svgSprites);
+  watch("./src/img/svg/**.svg", svgSprites);
   watch("./src/resources/**", resources);
   watch("./src/fonts/**.ttf", fonts);
   watch("./src/fonts/**.ttf", fontsStyle);
