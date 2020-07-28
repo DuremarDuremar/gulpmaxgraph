@@ -7,33 +7,7 @@
     <link rel="stylesheet" href="css/main.min.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <div class="header__wrapper">
-          <div class="header__name">
-            <img src="img/sprite.svg#Group44" alt="" />
-            <img src="img/sprite.svg#Toxin" alt="" />
-          </div>
-          <div class="header__nav">
-            <ul>
-              <li><a href="#">О нас</a></li>
-              <li><a href="#">Услуги</a></li>
-              <li><a href="#">Вакансии</a></li>
-              <li><a href="#">Новости</a></li>
-              <li><a href="#">Соглашения</a></li>
-              <li>
-                <button class="header__enter"><span>войти</span></button>
-              </li>
-              <li>
-                <button class="header__reg">
-                  <span>зарегистрироваться</span>
-                </button>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </header>
+    @include("html/header.html")
     <div class="main"></div>
     <footer class="footer"></footer>
   </body>

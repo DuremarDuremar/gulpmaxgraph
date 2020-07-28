@@ -5,65 +5,11 @@ body {
   font-family: montserrat;
 }
 
-.header {
-}
 .container {
-  width: 924px;
+  width: 1160px;
   margin: 0px auto;
 }
-.header__wrapper {
-  margin-top: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.header__name {
-  display: flex;
-  align-items: center;
-  img {
-    &:first-child {
-      width: 40px;
-      height: 40px;
-    }
-    &:last-child {
-      width: 53.19px;
-      height: 30px;
-    }
-  }
-}
 
-.header__nav {
-  ul {
-    display: flex;
-    align-items: center;
-    li {
-      font-size: 14px;
-      line-height: 17px;
-      color: rgba(31, 32, 65, 0.5);
-      button {
-        border-radius: 22px;
-        padding: 9px 20px 10px 20px;
-        background-color: #fff;
-        border: 3px solid #bc9cff;
-        span {
-          font-size: 12px;
-          line-height: 15px;
-          text-transform: uppercase;
-          color: #bc9cff;
-          font-family: montserrat-bold;
-        }
-        &:hover {
-          background-color: #bc9cff;
-          span {
-            color: #fff;
-          }
-        }
-      }
-      &:not(:last-child) {
-        padding-right: 20px;
-      }
-    }
-  }
-}
+@import "components/header";
 
 @import "fonts";
