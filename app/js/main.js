@@ -2,5 +2,5 @@
 /*!************************!*\
   !*** ./src/js/main.js ***!
   \************************/
-/*! no static exports found */function(module,exports){eval("\n\n//# sourceURL=webpack:///./src/js/main.js?")}});
+/*! no static exports found */function(module,exports){eval('var btnReg = document.querySelector(".header__reg");\nvar btnEnter = document.querySelector(".header__enter");\nconsole.log(btnEnter);\n\n//# sourceURL=webpack:///./src/js/main.js?')}});
 //# sourceMappingURL=main.js.map
