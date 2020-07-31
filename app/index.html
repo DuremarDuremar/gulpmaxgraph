@@ -17,7 +17,7 @@
       <div class="header__burger">
         <div class="burger__link">
           <span
-            ><a href="#"><img src="img/sprite.svg#bars-solid" alt="" /></a
+            ><a href="#"><i class="fas fa-bars fa-3x"></i></a
           ></span>
         </div>
         <div class="burger__nav">
@@ -40,14 +40,12 @@
         <div class="burger__back">
           <button class="burger__enter">
             <span
-              ><a href="#"
-                ><img src="img/sprite.svg#sign-in-alt-solid" alt="" /></a
+              ><a href="#"><i class="fas fa-sign-in-alt fa-3x"></i></a
             ></span>
           </button>
           <button class="burger__reg">
             <span
-              ><a href="#"
-                ><img src="img/sprite.svg#cash-register-solid" alt="" /></a
+              ><a href="#"><i class="fas fa-cash-register fa-3x"></i></a
             ></span>
           </button>
         </div>
@@ -56,16 +54,16 @@
         <ul>
           <li><a href="#">О нас</a></li>
           <li>
-            <a href="#"
-              >Услуги<img src="img/sprite.svg#chevron-down-solid" alt=""
-            /></a>
+            <select name="" id="">
+              <option selected value="Услуги">Услуги</option>
+            </select>
           </li>
           <li><a href="#">Вакансии</a></li>
           <li><a href="#">Новости</a></li>
           <li>
-            <a href="#"
-              >Соглашения<img src="img/sprite.svg#chevron-down-solid" alt=""
-            /></a>
+            <select name="" id="">
+              <option selected value="Соглашения">Соглашения</option>
+            </select>
           </li>
           <li>
             <button class="header__enter"><span>войти</span></button>
@@ -81,8 +79,46 @@
   </div>
 </header>
 
-    <div class="main"></div>
+    <div class="main">
+      <div class="main__wrapper">
+        <div class="main__modal">
+          <form action="#">
+            <div class="main__title">Найдём номера под ваши пожелания</div>
+            <div class="main__block main__arrival">
+              <p>Прибытие</p>
+              <select name="прибытие" id="#">
+                <option disabled>ДД.ММ.ГГГГ</option>
+                <option selected value="завтра">завтра</option>
+              </select>
+            </div>
+            <div class="main__block main__departure">
+              <p>Выезд</p>
+              <select name="выезд" id="#">
+                <option disabled>ДД.ММ.ГГГГ</option>
+                <option selected value="завтра">завтра</option>
+              </select>
+            </div>
+            <div class="main__block main__guests">
+              <p>Гости</p>
+              <select name="гости" id="#">
+                <option disabled>сколько гостей</option>
+                <option selected value="завтра">один</option>
+              </select>
+            </div>
+            <div class="choice">
+              <button>
+                <span>подобрать номер</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
     <footer class="footer"></footer>
+    <script
+      src="https://kit.fontawesome.com/8b344eb593.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="js/main.js"></script>
   </body>
 </html>

@@ -3,6 +3,7 @@
 
 body {
   font-family: montserrat;
+  position: relative;
 }
 
 .container {
@@ -11,5 +12,6 @@ body {
 }
 
 @import "components/header";
+@import "components/mainBlock";
 
 @import "fonts";

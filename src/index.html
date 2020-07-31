@@ -8,8 +8,46 @@
   </head>
   <body>
     @include("html/_header.html")
-    <div class="main"></div>
+    <div class="main">
+      <div class="main__wrapper">
+        <div class="main__modal">
+          <form action="#">
+            <div class="main__title">Найдём номера под ваши пожелания</div>
+            <div class="main__block main__arrival">
+              <p>Прибытие</p>
+              <select name="прибытие" id="#">
+                <option disabled>ДД.ММ.ГГГГ</option>
+                <option selected value="завтра">завтра</option>
+              </select>
+            </div>
+            <div class="main__block main__departure">
+              <p>Выезд</p>
+              <select name="выезд" id="#">
+                <option disabled>ДД.ММ.ГГГГ</option>
+                <option selected value="завтра">завтра</option>
+              </select>
+            </div>
+            <div class="main__block main__guests">
+              <p>Гости</p>
+              <select name="гости" id="#">
+                <option disabled>сколько гостей</option>
+                <option selected value="завтра">один</option>
+              </select>
+            </div>
+            <div class="choice">
+              <button>
+                <span>подобрать номер</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
     <footer class="footer"></footer>
+    <script
+      src="https://kit.fontawesome.com/8b344eb593.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="js/main.js"></script>
   </body>
 </html>
