@@ -4,6 +4,7 @@
   background-color: #fff;
   position: fixed;
   width: 100%;
+  z-index: 5;
 }
 .header__wrapper {
   margin-top: 15px;
@@ -45,7 +46,7 @@
           font-family: montserrat-bold;
         }
         &:hover {
-          background-color: #bc9cff;
+          background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
           span {
             color: #fff;
           }

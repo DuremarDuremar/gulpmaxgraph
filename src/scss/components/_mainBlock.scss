@@ -5,18 +5,71 @@
   padding-top: 90px;
 }
 .main__wrapper {
+  position: relative;
 }
 .main__modal {
+  position: absolute;
+  top: 5vmax;
+  left: 11vmax;
+  background-color: #fff;
+  form {
+    padding: 40px 30px 30px 30px;
+    display: grid;
+    align-items: end;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "title title"
+      "arrival departure"
+      "guests guests"
+      "choice choice";
+  }
 }
 .main__title {
+  grid-area: title;
+  font-size: 24px;
+  line-height: 30px;
+  color: #1f2041;
 }
 .main__block {
+  p {
+    font-family: montserrat-bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+  }
+  select {
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    font-size: 14px;
+    line-height: 18px;
+    font-family: montserrat;
+  }
 }
 .main__arrival {
+  grid-area: arrival;
 }
 .main__departure {
+  grid-area: departure;
 }
 .main__guests {
+  grid-area: guests;
 }
 .choice {
+  grid-area: choice;
+  button {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: montserrat-bold;
+    font-size: 12px;
+    line-height: 15px;
+    background-color: #fff;
+    color: #bc9cff;
+    border-radius: 22px;
+    padding: 14px 22px 15px 18px;
+    border: 3px solid #bc9cff;
+    &:hover {
+      background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+      color: #fff;
+    }
+  }
 }

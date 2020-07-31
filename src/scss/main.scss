@@ -11,6 +11,10 @@ body {
   margin: 0px auto;
 }
 
+select {
+  cursor: pointer;
+}
+
 @import "components/header";
 @import "components/mainBlock";
 
