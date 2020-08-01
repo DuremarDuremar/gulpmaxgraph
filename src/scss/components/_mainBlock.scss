@@ -26,6 +26,8 @@
   }
 }
 .main__title {
+  font-family: quicksand-bold;
+  font-weight: 700;
   grid-area: title;
   font-size: 24px;
   line-height: 30px;
@@ -37,12 +39,15 @@
     font-size: 12px;
     line-height: 15px;
     text-transform: uppercase;
+    margin-bottom: 5px;
   }
   select {
     border: 1px solid rgba(31, 32, 65, 0.25);
     font-size: 14px;
     line-height: 18px;
     font-family: montserrat;
+    color: rgba(31, 32, 65, 0.75);
+    appearance: none;
   }
 }
 .main__arrival {
@@ -53,15 +58,28 @@
 }
 .main__guests {
   grid-area: guests;
+  select {
+    width: 320px;
+    height: 44px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 15px;
+    align-items: center;
+    text-align: center;
+  }
 }
 .choice {
   grid-area: choice;
+  padding-top: 31px;
   button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 320px;
+    height: 44px;
     text-align: center;
     text-transform: uppercase;
     font-family: montserrat-bold;
-    font-size: 12px;
-    line-height: 15px;
     background-color: #fff;
     color: #bc9cff;
     border-radius: 22px;
@@ -70,6 +88,19 @@
     &:hover {
       background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
       color: #fff;
+    }
+    p {
+      // display: inline-block;
+      font-size: 12px;
+      line-height: 15px;
+      display: inline-block;
+      margin: 0px auto;
+    }
+    i {
+      // float: right;
+      font-size: 20px;
+      // line-height: 20px;
+      // display: inline-block;
     }
   }
 }
