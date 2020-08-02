@@ -32,6 +32,7 @@
   font-size: 24px;
   line-height: 30px;
   color: #1f2041;
+  align-self: center;
 }
 .main__block {
   p {
@@ -41,14 +42,6 @@
     text-transform: uppercase;
     margin-bottom: 5px;
   }
-  // select {
-  //   border: 1px solid rgba(31, 32, 65, 0.25);
-  //   font-size: 14px;
-  //   line-height: 18px;
-  //   font-family: montserrat;
-  //   color: rgba(31, 32, 65, 0.75);
-  //   appearance: none;
-  // }
 }
 .main__arrival {
   grid-area: arrival;
@@ -58,15 +51,6 @@
 }
 .main__guests {
   grid-area: guests;
-  select {
-    width: 320px;
-    height: 44px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    padding-left: 15px;
-    align-items: center;
-    text-align: center;
-  }
 }
 .choice {
   grid-area: choice;

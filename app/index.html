@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="css/main.min.css" />
   </head>
   <body>
-    <header class="header">
+    <div class="page">
+      <header class="header">
   <div class="container">
     <div class="header__wrapper">
       <div class="header__name">
@@ -58,16 +59,48 @@
         <ul>
           <li><a href="#">О нас</a></li>
           <li>
-            <select name="" id="">
-              <option selected value="Услуги">Услуги</option>
-            </select>
+            <div class="select">
+              <div class="select__header">
+                <div class="select__current">Услуги</div>
+                <div class="select__icon">
+                  <span class="material-icons">
+                    keyboard_arrow_down
+                  </span>
+                </div>
+              </div>
+
+              <div class="select__body">
+                <div class="select__item">1</div>
+                <div class="select__item">2</div>
+                <div class="select__item">3</div>
+                <div class="select__item">4</div>
+                <div class="select__item">5</div>
+                <div class="select__item">6</div>
+              </div>
+            </div>
           </li>
           <li><a href="#">Вакансии</a></li>
           <li><a href="#">Новости</a></li>
           <li>
-            <select name="" id="">
-              <option selected value="Соглашения">Соглашения</option>
-            </select>
+            <div class="select">
+              <div class="select__header">
+                <div class="select__current">Соглашения</div>
+                <div class="select__icon">
+                  <span class="material-icons">
+                    keyboard_arrow_down
+                  </span>
+                </div>
+              </div>
+
+              <div class="select__body">
+                <div class="select__item">1</div>
+                <div class="select__item">2</div>
+                <div class="select__item">3</div>
+                <div class="select__item">4</div>
+                <div class="select__item">5</div>
+                <div class="select__item">6</div>
+              </div>
+            </div>
           </li>
           <li>
             <button class="header__enter"><span>войти</span></button>
@@ -83,61 +116,91 @@
   </div>
 </header>
 
-    <div class="main">
-      <div class="main__wrapper">
-        <div class="main__modal">
-          <form action="#">
-            <div class="main__title">
-              Найдём номера под <br />
-              ваши пожелания
-            </div>
-            <div class="main__block main__arrival">
-              <p>Прибытие</p>
-              <select name="прибытие" id="#1">
-                <option disabled>ДД.ММ.ГГГГ</option>
-                <option selected value="завтра">завтра</option>
-              </select>
-            </div>
-            <div class="main__block main__departure">
-              <p>Выезд</p>
-              <select name="выезд" id="#2">
-                <option disabled>ДД.ММ.ГГГГ</option>
-                <option selected value="завтра">завтра</option>
-              </select>
-            </div>
-            <div class="main__block main__guests">
-              <p>Гости</p>
-              <div class="select">
-                <div class="select__header">
-                  <div class="select__current">Сколько гостей</div>
-                  <div class="select__icon">
-                    <span class="material-icons">
-                      keyboard_arrow_down
-                    </span>
+      <div class="main">
+        <div class="main__wrapper">
+          <div class="main__modal">
+            <form action="#">
+              <div class="main__title">
+                Найдём номера под <br />
+                ваши пожелания
+              </div>
+              <div class="main__block main__arrival">
+                <p>Прибытие</p>
+                <div class="select">
+                  <div class="select__header">
+                    <div class="select__current">1HHH</div>
+                    <div class="select__icon">
+                      <span class="material-icons">
+                        keyboard_arrow_down
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="select__body">
+                    <div class="select__item">1</div>
+                    <div class="select__item">2</div>
+                    <div class="select__item">3</div>
+                    <div class="select__item">4</div>
+                    <div class="select__item">5</div>
+                    <div class="select__item">6</div>
                   </div>
                 </div>
+              </div>
+              <div class="main__block main__departure">
+                <p>Выезд</p>
+                <div class="select">
+                  <div class="select__header">
+                    <div class="select__current">1HHH</div>
+                    <div class="select__icon">
+                      <span class="material-icons">
+                        keyboard_arrow_down
+                      </span>
+                    </div>
+                  </div>
 
-                <div class="select__body">
-                  <div class="select__item">1</div>
-                  <div class="select__item">2</div>
-                  <div class="select__item">3</div>
-                  <div class="select__item">4</div>
-                  <div class="select__item">5</div>
-                  <div class="select__item">6</div>
+                  <div class="select__body">
+                    <div class="select__item">1</div>
+                    <div class="select__item">2</div>
+                    <div class="select__item">3</div>
+                    <div class="select__item">4</div>
+                    <div class="select__item">5</div>
+                    <div class="select__item">6</div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="choice">
-              <button>
-                <p>подобрать номер</p>
-                <span><i class="fas fa-arrow-right"></i></span>
-              </button>
-            </div>
-          </form>
+              <div class="main__block main__guests">
+                <p>Гости</p>
+                <div class="select">
+                  <div class="select__header">
+                    <div class="select__current">Сколько гостей</div>
+                    <div class="select__icon">
+                      <span class="material-icons">
+                        keyboard_arrow_down
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="select__body">
+                    <div class="select__item">1</div>
+                    <div class="select__item">2</div>
+                    <div class="select__item">3</div>
+                    <div class="select__item">4</div>
+                    <div class="select__item">5</div>
+                    <div class="select__item">6</div>
+                  </div>
+                </div>
+              </div>
+              <div class="choice">
+                <button>
+                  <p>подобрать номер</p>
+                  <span><i class="fas fa-arrow-right"></i></span>
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="select">
+      <div class="select">
   <div class="select__header">
     <div class="select__current">1HHH</div>
     <div class="select__icon">
@@ -157,7 +220,8 @@
   </div>
 </div>
 
-    <footer class="footer"></footer>
+      <footer class="footer"></footer>
+    </div>
     <script
       src="https://kit.fontawesome.com/8b344eb593.js"
       crossorigin="anonymous"

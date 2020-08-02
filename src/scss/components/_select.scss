@@ -3,6 +3,64 @@
     width: 320px;
     height: 44px;
     position: relative;
+
+    .select__header {
+      border: 1px solid rgba(31, 32, 65, 0.25);
+      cursor: pointer;
+      display: flex;
+      .select__current {
+        font-size: 14px;
+        line-height: 18px;
+        font-family: montserrat;
+        color: rgba(31, 32, 65, 0.75);
+        appearance: none;
+        //   margin: auto;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-left: 15px;
+      }
+      .select__icon {
+        align-items: center;
+        display: flex;
+        flex-shrink: 0;
+        justify-content: center;
+        height: 40px;
+        margin-left: auto;
+        text-align: center;
+        color: rgba(31, 32, 65, 0.75);
+      }
+    }
+
+    .select__body {
+      display: none;
+      border: 1px solid rgba(31, 32, 65, 0.25);
+      border-top: 0;
+      left: 0;
+      right: 0;
+      top: 100%;
+      position: absolute;
+      background-color: #fff;
+      .select__item {
+        cursor: pointer;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 8px;
+        &:hover {
+          background-color: #f2f2f2;
+        }
+      }
+    }
+  }
+  .select.isActive .select__body {
+    display: block;
+  }
+}
+.main__departure {
+  margin-left: auto;
+  .select {
+    width: 150px;
+    height: 44px;
+    position: relative;
     z-index: 4;
 
     .select__header {
@@ -46,6 +104,117 @@
         font-size: 16px;
         line-height: 24px;
         padding: 8px;
+        &:hover {
+          background-color: #f2f2f2;
+        }
+      }
+    }
+  }
+  .select.isActive .select__body {
+    display: block;
+  }
+}
+.main__arrival {
+  margin-right: auto;
+  .select {
+    width: 150px;
+    height: 44px;
+    position: relative;
+    z-index: 4;
+
+    .select__header {
+      border: 1px solid rgba(31, 32, 65, 0.25);
+      cursor: pointer;
+      display: flex;
+      .select__current {
+        font-size: 14px;
+        line-height: 18px;
+        font-family: montserrat;
+        color: rgba(31, 32, 65, 0.75);
+        appearance: none;
+        //   margin: auto;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-left: 15px;
+      }
+      .select__icon {
+        align-items: center;
+        display: flex;
+        flex-shrink: 0;
+        justify-content: center;
+        height: 40px;
+        margin-left: auto;
+        text-align: center;
+        color: rgba(31, 32, 65, 0.75);
+      }
+    }
+
+    .select__body {
+      display: none;
+      border: 1px solid rgba(31, 32, 65, 0.25);
+      border-top: 0;
+      left: 0;
+      right: 0;
+      top: 100%;
+      position: absolute;
+      background-color: #fff;
+      .select__item {
+        cursor: pointer;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 8px;
+        &:hover {
+          background-color: #f2f2f2;
+        }
+      }
+    }
+  }
+  .select.isActive .select__body {
+    display: block;
+  }
+}
+.header__nav {
+  .select {
+    position: relative;
+
+    .select__header {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      .select__current {
+        color: rgba(31, 32, 65, 0.5);
+        font-size: 14px;
+        line-height: 17px;
+        font-family: montserrat;
+        appearance: none;
+      }
+      .select__icon {
+        align-items: center;
+        display: flex;
+        flex-shrink: 0;
+        justify-content: center;
+        height: 40px;
+        margin-left: auto;
+        text-align: center;
+        color: rgba(31, 32, 65, 0.5);
+      }
+    }
+
+    .select__body {
+      display: none;
+      border: 1px solid rgba(31, 32, 65, 0.25);
+      border-top: 0;
+      left: 0;
+      right: 0;
+      top: 100%;
+      position: absolute;
+      background-color: #fff;
+      .select__item {
+        cursor: pointer;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 8px;
+        border-top: 1px solid rgba(31, 32, 65, 0.25);
         &:hover {
           background-color: #f2f2f2;
         }
