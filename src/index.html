@@ -12,93 +12,26 @@
   </head>
   <body>
     <div class="page">
-      @include("html/_header.html")
-      <div class="main">
-        <div class="main__wrapper">
-          <div class="main__modal">
-            <form action="#">
-              <div class="main__title">
-                Найдём номера под <br />
-                ваши пожелания
-              </div>
-              <div class="main__block main__arrival">
-                <p>Прибытие</p>
-                <div class="select">
-                  <div class="select__header">
-                    <div class="select__current">1HHH</div>
-                    <div class="select__icon">
-                      <span class="material-icons">
-                        keyboard_arrow_down
-                      </span>
-                    </div>
-                  </div>
-
-                  <div class="select__body">
-                    <div class="select__item">1</div>
-                    <div class="select__item">2</div>
-                    <div class="select__item">3</div>
-                    <div class="select__item">4</div>
-                    <div class="select__item">5</div>
-                    <div class="select__item">6</div>
-                  </div>
-                </div>
-              </div>
-              <div class="main__block main__departure">
-                <p>Выезд</p>
-                <div class="select">
-                  <div class="select__header">
-                    <div class="select__current">1HHH</div>
-                    <div class="select__icon">
-                      <span class="material-icons">
-                        keyboard_arrow_down
-                      </span>
-                    </div>
-                  </div>
-
-                  <div class="select__body">
-                    <div class="select__item">1</div>
-                    <div class="select__item">2</div>
-                    <div class="select__item">3</div>
-                    <div class="select__item">4</div>
-                    <div class="select__item">5</div>
-                    <div class="select__item">6</div>
-                  </div>
-                </div>
-              </div>
-              <div class="main__block main__guests">
-                <p>Гости</p>
-                <div class="select">
-                  <div class="select__header">
-                    <div class="select__current">Сколько гостей</div>
-                    <div class="select__icon">
-                      <span class="material-icons">
-                        keyboard_arrow_down
-                      </span>
-                    </div>
-                  </div>
-
-                  <div class="select__body">
-                    <div class="select__item">1</div>
-                    <div class="select__item">2</div>
-                    <div class="select__item">3</div>
-                    <div class="select__item">4</div>
-                    <div class="select__item">5</div>
-                    <div class="select__item">6</div>
-                  </div>
-                </div>
-              </div>
-              <div class="choice">
-                <button>
-                  <p>подобрать номер</p>
-                  <span><i class="fas fa-arrow-right"></i></span>
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
+      @include("html/_header.html") @include("html/_mainBlock.html")
+      <footer class="footer">fff</footer>
+      <div class="burger">
+        <ul>
+          <li><a href="#">О нас</a></li>
+          <li>
+            <a href="#"
+              >Услуги<img src="img/sprite.svg#chevron-down-solid" alt=""
+            /></a>
+          </li>
+          <li><a href="#">Вакансии</a></li>
+          <li><a href="#">Новости</a></li>
+          <li>
+            <a href="#"
+              >Соглашения<img src="img/sprite.svg#chevron-down-solid" alt=""
+            /></a>
+          </li>
+        </ul>
       </div>
-      @include("html/_select.html")
-      <footer class="footer"></footer>
+      <div class="canvas"></div>
     </div>
     <script
       src="https://kit.fontawesome.com/8b344eb593.js"

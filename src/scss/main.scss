@@ -14,9 +14,11 @@ body {
 .page {
   display: grid;
   grid-template-rows: auto 1fr auto;
+  position: relative;
 }
 
 @import "components/select";
+@import "components/burger";
 @import "components/header";
 @import "components/mainBlock";
 
