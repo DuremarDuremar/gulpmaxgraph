@@ -21,3 +21,5 @@ export let select = function () {
     closeSelect.classList.remove("isActive");
   }
 };
+
+select();

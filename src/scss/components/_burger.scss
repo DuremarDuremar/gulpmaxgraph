@@ -2,31 +2,24 @@
   display: none;
   z-index: 7;
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
-  li {
-    font-size: 14px;
-    line-height: 17px;
-    &:nth-child(2) {
-      img {
-        width: 15px;
-        height: 12px;
-        position: relative;
-        top: 3px;
-        margin-left: 5px;
+  transform: translateX(-50%);
+
+  .burger__wrapper {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    grid-gap: 8px;
+
+    .burger__block {
+      font-size: 34px;
+      line-height: 37px;
+
+      a {
+        color: #fff;
       }
-    }
-    &:nth-child(5) {
-      img {
-        width: 15px;
-        height: 12px;
-        position: relative;
-        top: 3px;
-        margin-left: 5px;
-      }
-    }
-    a {
-      color: rgba(31, 32, 65, 0.5);
     }
   }
 }
