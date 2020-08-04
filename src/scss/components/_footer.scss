@@ -1,0 +1,22 @@
+.footer {
+  .footer__wrapper {
+  }
+}
+
+input[type="date"] {
+  appearance: none;
+  box-sizing: border-box;
+  border: 1px solid black;
+  background: transparent;
+  font-size: 1.5rem;
+  padding: 8px;
+}
+
+// ::-webkit-datetime-edit
+//         ::-webkit-datetime-edit-fields-wrapper
+//         ::-webkit-datetime-edit-text
+//         ::-webkit-datetime-edit-month-field
+//         ::-webkit-datetime-edit-day-field
+//         ::-webkit-datetime-edit-year-field
+//         ::-webkit-inner-spin-button
+//         ::-webkit-calendar-picker-indicator

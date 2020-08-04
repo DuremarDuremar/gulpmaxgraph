@@ -1,0 +1,44 @@
+.ctrl-datepicker {
+  padding: 50px;
+  width: 360px;
+  height: 369px;
+  display: block;
+  margin: auto;
+}
+
+.ctrl-wrapper {
+  text-align: center;
+  .datepicker-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 30px 20px;
+    b {
+      font-size: 19px;
+      line-height: 24px;
+      font-family: quicksand-bold;
+      font-weight: 700;
+      color: #1f2041;
+      // text-align: center;
+    }
+    i {
+      // display: inline-block;
+      // vertical-align: middle;
+      color: #bc9cff;
+      width: 23.93px;
+    }
+  }
+  table {
+    margin: 0px auto;
+    display: inline;
+    width: 360px;
+    thead {
+      display: flex;
+      justify-content: space-between;
+      tr {
+        font-size: 12px;
+        line-height: 15px;
+        color: #bc9cff;
+      }
+    }
+  }
+}

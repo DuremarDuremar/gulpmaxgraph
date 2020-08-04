@@ -13,7 +13,21 @@
   <body>
     <div class="page">
       @include("html/_header.html") @include("html/_mainBlock.html")
-      <footer class="footer">fff</footer>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__wrapper">
+            <form action="">
+              <input
+                type="text"
+                name="date"
+                class="flatpickr js-flatpickr-dateTime"
+                placeholder="select date/time"
+              />
+              <button type="submit">submit</button>
+            </form>
+          </div>
+        </div>
+      </footer>
       @include("html/_canvas&burger.html")
     </div>
     <script

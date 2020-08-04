@@ -42,6 +42,19 @@
     text-transform: uppercase;
     margin-bottom: 5px;
   }
+  input {
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: montserrat;
+    color: rgba(31, 32, 65, 0.75);
+    appearance: none;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 15px;
+    width: 150px;
+  }
 }
 .main__arrival {
   grid-area: arrival;
