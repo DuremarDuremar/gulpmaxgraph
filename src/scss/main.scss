@@ -1,7 +1,6 @@
 @import "normal";
 @import "mixin";
 @import "../../node_modules/flatpickr/dist/flatpickr.css";
-
 body {
   font-family: montserrat;
   position: relative;
@@ -24,5 +23,5 @@ body {
 @import "components/header";
 @import "components/footer";
 @import "components/mainBlock";
-
+@import "components/frastPickr";
 @import "fonts";
