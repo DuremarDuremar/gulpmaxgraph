@@ -17,8 +17,22 @@ body {
   position: relative;
 }
 
+.pic {
+  display: flex;
+  align-items: center;
+  img {
+    &:first-child {
+      width: 40px;
+      height: 40px;
+    }
+    &:last-child {
+      width: 53.19px;
+      height: 40px;
+    }
+  }
+}
+
 @import "components/select";
-@import "components/calendar";
 @import "components/burger";
 @import "components/header";
 @import "components/footer";
