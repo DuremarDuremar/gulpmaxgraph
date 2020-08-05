@@ -1,24 +1,65 @@
+select {
+  text-align: end;
+}
+
 .flatpickr-months .flatpickr-prev-month,
 .flatpickr-months .flatpickr-next-month {
   color: #bc9cff;
   font-size: 35px;
+  line-height: 15px;
   vertical-align: middle;
   position: static;
   display: inline;
 }
 
 .flatpickr-current-month {
-  font-family: quicksand-bold;
-  font-weight: 700;
-  font-size: 19px;
-  line-height: 24px;
-  color: #1f2041;
-  width: 100%;
 }
 
 .flatpickr-months .flatpickr-month {
 }
 
-.flatpickr-current-month input.cur-year {
-  //   display: none;
+.flatpickr-current-month {
+}
+
+.flatpickr-month {
+  width: 114px;
+}
+
+.flatpickr-current-month .flatpickr-monthDropdown-months {
+  appearance: none;
+  font-family: quicksand-bold;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  color: #1f2041;
+  display: inline;
+  padding: 0 0 0 1.4ch;
+}
+
+.numInputWrapper {
+  font-family: quicksand-bold;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  color: #1f2041;
+  .numInput cur-year {
+    padding: 0;
+  }
+  span {
+    display: none;
+  }
+}
+
+.flatpickr-weekdaycontainer {
+  span {
+    color: #bc9cff;
+  }
+}
+
+.dayContainer {
+  span {
+    &:hover {
+      background: linear-gradient(180deg, #6fcf97 0%, #66d2ea 100%);
+    }
+  }
 }
