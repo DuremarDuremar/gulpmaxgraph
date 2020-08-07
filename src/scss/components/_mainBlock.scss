@@ -1,8 +1,17 @@
 .main {
-  background-image: url("../../app/img/image3.png");
-  background-size: cover;
   height: 100vh;
   padding-top: 90px;
+  position: relative;
+  .main__pic {
+    position: absolute;
+
+    img {
+      z-index: -10;
+      background-size: cover;
+      height: 100vh;
+      width: 100%;
+    }
+  }
 }
 .main__wrapper {
   position: relative;

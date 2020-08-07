@@ -26,7 +26,7 @@
 /*!************************!*\
   !*** ./src/js/main.js ***!
   \************************/
-/*! no exports provided */function(module,__webpack_exports__,__webpack_require__){"use strict";eval('__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _select__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./select */ "./src/js/select.js");\n/* harmony import */ var _burger__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./burger */ "./src/js/burger.js");\n/* harmony import */ var _counter__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./counter */ "./src/js/counter.js");\n/* harmony import */ var _flatpickr__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./flatpickr */ "./src/js/flatpickr.js");\n\n\n\n\n\n//# sourceURL=webpack:///./src/js/main.js?')},"./src/js/select.js":
+/*! no exports provided */function(module,__webpack_exports__,__webpack_require__){"use strict";eval('__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _select__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./select */ "./src/js/select.js");\n/* harmony import */ var _burger__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./burger */ "./src/js/burger.js");\n/* harmony import */ var _counter__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./counter */ "./src/js/counter.js");\n/* harmony import */ var _flatpickr__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./flatpickr */ "./src/js/flatpickr.js");\n\n\n\n\nconsole.log(55);\n\n//# sourceURL=webpack:///./src/js/main.js?')},"./src/js/select.js":
 /*!**************************!*\
   !*** ./src/js/select.js ***!
   \**************************/
