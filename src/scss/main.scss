@@ -6,47 +6,7 @@ body {
   position: relative;
 }
 
-.container {
-  max-width: 1160px;
-  margin: 0px auto;
-}
-
-.page {
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  position: relative;
-}
-
-.pic {
-  display: flex;
-  align-items: center;
-  img {
-    &:first-child {
-      width: 40px;
-      height: 40px;
-    }
-    &:last-child {
-      width: 53.19px;
-      height: 40px;
-    }
-  }
-}
-
-@media (max-width: 410px) {
-  .pic {
-    padding-right: 50px;
-  }
-}
-
-h4 {
-  font-family: montserrat-bold;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 15px;
-  text-transform: uppercase;
-  margin-bottom: 5px;
-}
-
+@import "components/other";
 @import "components/select";
 @import "components/burger";
 @import "components/header";
