@@ -58,6 +58,31 @@
   }
 }
 
+.footer__link {
+  display: flex;
+  justify-content: space-between;
+  margin: 127px 10px 0;
+  span {
+    color: rgba(31, 32, 65, 0.75);
+  }
+  .footer__icon {
+    display: inline;
+    a {
+      &:not(:last-child) {
+        padding-right: 20px;
+      }
+    }
+    img {
+      width: 24px;
+      height: 24px;
+      &:hover {
+        width: 36px;
+        height: 36px;
+      }
+    }
+  }
+}
+
 //adaptiv////////////////////////////////////////////////////////////////////////////////////
 @media (max-width: 992px) {
   .footer {
@@ -87,6 +112,16 @@
         &:first-child {
           display: none;
         }
+      }
+    }
+    .footer__link {
+      margin-top: 80px;
+      span {
+        width: 135px;
+        line-height: 25px;
+      }
+      .footer__icon {
+        text-align: left;
       }
     }
   }
