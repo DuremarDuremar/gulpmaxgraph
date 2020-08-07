@@ -1,5 +1,5 @@
 .main {
-  background-image: url("../../img/image3.png");
+  background-image: url("../../img/image3-min.png");
   background-size: cover;
   height: 100vh;
   padding-top: 90px;
@@ -103,5 +103,24 @@
     position: static;
     display: inline-block;
     margin: 0 10px;
+  }
+}
+
+@media (max-width: 410px) {
+  .main__block {
+    input {
+      width: 130px;
+    }
+  }
+  .main__guests {
+    .select__header {
+      width: 280px;
+    }
+  }
+
+  .choice {
+    button {
+      width: 280px;
+    }
   }
 }

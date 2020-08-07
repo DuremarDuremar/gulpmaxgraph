@@ -32,6 +32,12 @@ body {
   }
 }
 
+@media (max-width: 410px) {
+  .pic {
+    padding-right: 50px;
+  }
+}
+
 h4 {
   font-family: montserrat-bold;
   font-weight: 700;
