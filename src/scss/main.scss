@@ -32,10 +32,20 @@ body {
   }
 }
 
+h4 {
+  font-family: montserrat-bold;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
 @import "components/select";
 @import "components/burger";
 @import "components/header";
 @import "components/footer";
 @import "components/mainBlock";
+@import "components/counter";
 @import "components/frastPickr";
 @import "fonts";

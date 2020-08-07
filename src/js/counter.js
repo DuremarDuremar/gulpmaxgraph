@@ -9,12 +9,20 @@ export let counter = function () {
       let countVal = document.querySelectorAll(".counter__value");
       let newValue;
       let resValue = 0;
+
       if (direction === "plus") {
         newValue = currentValue + 1;
       } else {
         newValue = currentValue - 1 > 0 ? currentValue - 1 : 0;
       }
       inp.value = newValue;
+
+      document
+        .querySelector(".counter__clear")
+        .addEventListener("click", function () {
+          inp.value = 0;
+          resValue = 0;
+        });
 
       countVal.forEach(function (val) {
         resValue += +val.value;
@@ -24,7 +32,7 @@ export let counter = function () {
       counterEnter.addEventListener("click", counterChoose);
 
       function counterChoose() {
-        let text = resValue;
+        let text = resValue !== 1 ? resValue + " гостей" : resValue + " гость";
         let closeSelect = this.closest(".select");
         let cuurentText = closeSelect.querySelector(".select__current");
         cuurentText.innerText = text;

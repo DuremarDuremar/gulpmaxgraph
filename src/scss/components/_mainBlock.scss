@@ -8,6 +8,7 @@
   position: relative;
 }
 .main__modal {
+  user-select: none;
   position: absolute;
   top: 5vmax;
   left: 11vmax;
@@ -35,13 +36,6 @@
   align-self: center;
 }
 .main__block {
-  p {
-    font-family: montserrat-bold;
-    font-size: 12px;
-    line-height: 15px;
-    text-transform: uppercase;
-    margin-bottom: 5px;
-  }
   input {
     border: 1px solid rgba(31, 32, 65, 0.25);
     cursor: pointer;

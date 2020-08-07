@@ -130,7 +130,7 @@
           </div>
         </div> -->
         <div class="main__block main__arrival">
-          <p>Прибытие</p>
+          <h4>Прибытие</h4>
           <div class="flatpickr">
             <input
               type="text"
@@ -165,7 +165,7 @@
           </div>
         </div> -->
         <div class="main__block main__departure">
-          <p>Выезд</p>
+          <h4>Выезд</h4>
           <div class="flatpickr">
             <input
               type="text"
@@ -178,7 +178,7 @@
           </div>
         </div>
         <div class="main__block main__guests">
-          <p>Гости</p>
+          <h4>Гости</h4>
           <div class="select">
             <div class="select__header">
               <div class="select__current">Сколько гостей</div>
@@ -192,21 +192,32 @@
             <div class="select__body">
               <div class="select__counter"><div class="counter">
   <div class="counter__adults counter__block">
-    <button class="counter__btn" data-direction="minus">-</button>
-    <input type="text" value="0" class="counter__value" />
-    <button class="counter__btn" data-direction="plus">+</button>
+    <h4>взрослые</h4>
+    <div class="counter__wrapp">
+      <button class="counter__btn" data-direction="minus">-</button>
+      <input type="text" value="0" class="counter__value" />
+      <button class="counter__btn" data-direction="plus">+</button>
+    </div>
   </div>
   <div class="counter__children counter__block">
-    <button class="counter__btn" data-direction="minus">-</button>
-    <input type="text" value="0" class="counter__value" />
-    <button class="counter__btn" data-direction="plus">+</button>
+    <h4>дети</h4>
+    <div class="counter__wrapp">
+      <button class="counter__btn" data-direction="minus">-</button>
+      <input type="text" value="0" class="counter__value" />
+      <button class="counter__btn" data-direction="plus">+</button>
+    </div>
   </div>
   <div class="counter__babies counter__block">
-    <button class="counter__btn" data-direction="minus">-</button>
-    <input type="text" value="0" class="counter__value" />
-    <button class="counter__btn" data-direction="plus">+</button>
+    <h4>младенцы</h4>
+    <div class="counter__wrapp">
+      <button class="counter__btn" data-direction="minus">-</button>
+      <input type="text" value="0" class="counter__value" />
+      <button class="counter__btn" data-direction="plus">+</button>
+    </div>
   </div>
-  <button class="counter__enter">ok</button>
+
+  <button class="counter__clear">очистить</button>
+  <button class="counter__enter">применить</button>
 </div>
 </div>
             </div>
